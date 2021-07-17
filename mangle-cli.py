@@ -1,5 +1,7 @@
-#!/usr/bin/env python2
-"""python mangle-cli.py  extracted_cbz_folder/*
+#!/usr/bin/env python
+"""Python 2 and 3 limited cli interface to Mangle
+
+python mangle-cli.py  extracted_cbz_folder/*
     -d directory_name defaults to ./
     -t title defaults 'Unknown'
     -o book.outputFormat defaults to 'CBZ only'
