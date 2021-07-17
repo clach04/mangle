@@ -35,7 +35,7 @@ class FakeBook:
 
 try:
 	opts, args = getopt.getopt(sys.argv[1:], 'd:t:o:')
-except getopt.GetoptError, err:
+except getopt.GetoptError as err:
 	print(str(err))
 	sys.exit(2)
 
